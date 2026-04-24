@@ -1,7 +1,7 @@
-import streamlit as st
+import streamlit as stS
 import pandas as pd
 import joblib
-#Akhila 
+#Akhila Random Forest Regression Model for Medical Insurance Cost Prediction
 model = joblib.load('medical_rf_model.joblib')
 model_columns = joblib.load('model_columns.joblib')
 
